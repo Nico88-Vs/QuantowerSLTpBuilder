@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <Platforms>AnyCPU</Platforms>
+    <AlgoType>OrderPlacingStrategy</AlgoType>
+    <AssemblyName>TpSlManager</AssemblyName>
+    <RootNamespace>TpSlManager</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PackageId>TpSlManager</PackageId>
+    <Version>0.0.1</Version>
+    <Authors>Montanari Nicola</Authors>
+    <Description>A library to manage SL and TP for Quantower</Description>
+    <PackageTags>Trading, SL, TP, Quantower</PackageTags>
+    <RepositoryUrl>https://github.com/YourUsername/TpSlManager</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <!-- or any other license -->
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath>A:\Quantower\TradingPlatform\v1.140.14\..\..\Settings\Scripts\PlaceOrderStrategies\TpSlManager</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>A:\Quantower\TradingPlatform\v1.140.14\..\..\Settings\Scripts\PlaceOrderStrategies\TpSlManager</OutputPath>
+  </PropertyGroup>
+  <!--<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath>A:\Quantower\TradingPlatform\v1.140.14\..\..\Settings\Scripts\PlaceOrderStrategies\TpSlManager</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>A:\Quantower\TradingPlatform\v1.140.14\..\..\Settings\Scripts\PlaceOrderStrategies\TpSlManager</OutputPath>
+  </PropertyGroup>-->
+  <ItemGroup>
+    <Reference Include="TradingPlatform.BusinessLayer">
+      <HintPath>A:\Quantower\TradingPlatform\v1.140.14\bin\TradingPlatform.BusinessLayer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+</Project>
