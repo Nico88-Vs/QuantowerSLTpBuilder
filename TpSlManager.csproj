@@ -15,8 +15,11 @@
     <Authors>Montanari Nicola</Authors>
     <Description>A library to manage SL and TP for Quantower</Description>
     <PackageTags>Trading, SL, TP, Quantower</PackageTags>
-    <RepositoryUrl>https://github.com/YourUsername/TpSlManager</RepositoryUrl>
-    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/Nico88-Vs/QuantowerSLTpBuilder.git</RepositoryUrl>
+    <PackageLicenseExpression>
+      Apache License
+      Version 2.0, January 2004
+    </PackageLicenseExpression>
     <!-- or any other license -->
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
