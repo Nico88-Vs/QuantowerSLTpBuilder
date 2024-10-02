@@ -21,18 +21,6 @@
     </PackageLicenseExpression>
     <!-- or any other license -->
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <OutputPath>A:\Quantower\TradingPlatform\v1.140.14\..\..\Settings\Scripts\PlaceOrderStrategies\TpSlManager</OutputPath>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <OutputPath>A:\Quantower\TradingPlatform\v1.140.14\..\..\Settings\Scripts\PlaceOrderStrategies\TpSlManager</OutputPath>
-  </PropertyGroup>
-  <!--<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <OutputPath>A:\Quantower\TradingPlatform\v1.140.14\..\..\Settings\Scripts\PlaceOrderStrategies\TpSlManager</OutputPath>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <OutputPath>A:\Quantower\TradingPlatform\v1.140.14\..\..\Settings\Scripts\PlaceOrderStrategies\TpSlManager</OutputPath>
-  </PropertyGroup>-->
   <ItemGroup>
     <Reference Include="TradingPlatform.BusinessLayer">
       <HintPath>A:\Quantower\TradingPlatform\v1.140.14\bin\TradingPlatform.BusinessLayer.dll</HintPath>
